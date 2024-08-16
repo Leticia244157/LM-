@@ -1,0 +1,37 @@
+:root{
+    --amarelo:#ffbc42;
+    --vermelho: #b3b3b3;
+    --roxo: #8f2d56;
+    --verde: #218380;
+    --azul: #73d2de;
+}
+body{
+    background-color: var(--vermelho);
+}
+.formulario{
+    display: flex;
+    width: 400px;
+    flex-direction: column; 
+     
+    border: 100px; 
+    /* Centralizar para o lado */
+    margin: 100px; 
+    padding: 100px; 
+}  
+.titulo{
+    display: flex;
+    /* Centralizar para o lado */
+    
+}
+.img{  
+    width: 350px;
+}
+.texto{
+    width: 400px;  
+    margin: 100px; 
+    padding: 100px; 
+}
+.carro{
+    display: flex;
+    width: 800px;
+}
